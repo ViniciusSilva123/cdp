@@ -1,0 +1,50 @@
+{
+    "listaPorcoes": 
+    [
+        {
+            "nome": "TUPILA / MEIO DA ASA",
+            "descricao": "Tupila de Frango Switf 1kg, Frita e Temperada na Chapa",
+            "preco": "49,00"
+        },
+        {
+            "nome": "CARNE SECA COM MANDIOCA",
+            "descricao": "Carne Seca bem Saborosa. Acompanha: Mandioca e Tiras de Queijo Coalho",
+            "preco": "58,00"
+        },
+        {
+            "nome": "FRANGO A PASSARINHO",
+            "descricao": "Frango Swift, Frito e Temperado na Chapa. Acompanha: Ovos de Codorna, Azeitonas, Tomate e Limão",
+            "preco": "40,00"
+        },
+        {
+            "nome": "CALABRESA ACEBOLADA",
+            "descricao": "Feita na Chapa . Acompanha: Ovos de Codorna, Azeitona e Limão",
+            "preco": "49,00"
+        },
+        {
+            "nome": "CALABRESA COM BATATA",
+            "descricao": "Feita na Chapa. Acompanha: Ovos de Codorna e Azeitona",
+            "preco": "49,00"
+        },
+        {
+            "nome": "MANDIOCA FRITA",
+            "descricao": "Acompanha: Ovos de Codorna e Azeitonas",
+            "preco": "35,00"
+        },
+        {
+            "nome": "FRIOS MISTOS",
+            "descricao": "Salame, Ovos de Codorna e Azeitonas",
+            "preco": "48,00"
+        },
+        {
+            "nome": "NUGGETS",
+            "descricao": "15 unidades",
+            "preco": "24,00"
+        },
+        {
+            "nome": "ANÉIS DE CEBOLA",
+            "descricao": "Acompanha Molho Especial",
+            "preco": "30,00"
+        }
+    ]
+}

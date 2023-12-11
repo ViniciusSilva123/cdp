@@ -1,0 +1,34 @@
+{
+  "listaCombos": [
+    {
+      "nome": "CAIXA DE BURGUER",
+      "lanches": "3 X-BURGUER",
+      "descricao": "Batata Cheddar e Bacon, Nuggets e Aneis de Ceboola.",
+      "preco": "60,00"
+    },
+    {
+      "nome": "CAIXA DE SALADA",
+      "lanches": "3 X-SALADA",
+      "descricao": "Batata Cheddar e Bacon, Nuggets e Aneis de Ceboola.",
+      "preco": "70,00"
+    },
+    {
+      "nome": "CAIXA DE BACON",
+      "lanches": "3 X-BACON",
+      "descricao": "Batata Cheddar e Bacon, Nuggets e Aneis de Ceboola.",
+      "preco": "78,00"
+    },
+    {
+      "nome": "CAIXA DE MISTO",
+      "lanches": "1 X-SALADA<br>1 X-BACON<br>1 X-CALABRESA",
+      "descricao": "Batata Cheddar e Bacon, Nuggets e Aneis de Ceboola.",
+      "preco": "78,00"
+    },
+    {
+      "nome": "CAIXA INDIVIDUAL",
+      "lanches": "1 X-TUDO",
+      "descricao": "Batata Cheddar e Bacon, Nuggets de Ceboola.",
+      "preco": "40,00"
+    }
+  ]
+}

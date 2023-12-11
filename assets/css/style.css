@@ -1,0 +1,335 @@
+@charset "UTF";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fredericka+the+Great&family=Open+Sans:wght@300;400;500&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.voltar {
+    background-color: orange;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+.coluna {
+    display: flex;
+    max-width: 200px;
+    padding: 5px;
+}
+
+.nome {
+    color: rgb(255, 149, 0);
+    font-size: 10px;
+}
+
+.descricao {
+    font-size: 9px;
+}
+
+.preco {
+    background-color: orange;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    padding: 5px 2px;
+    margin: 5px;
+}
+
+
+
+/*BemVindo*/
+
+body {
+    background-color: rgb(255, 162, 0);
+    margin: auto;
+}
+
+/* Estilos padrão para monitores e dispositivos maiores */
+@media only screen and (min-width: 768px) {
+    /* Estilos para monitores e tablets */
+}
+
+/* Estilos para dispositivos menores, como celulares */
+@media only screen and (max-width: 767px) {
+    /* Estilos específicos para dispositivos móveis */
+}
+
+
+.mainbv {
+    height: 100vh;
+    max-width: 1300px;
+    min-width: 360px;
+    margin: auto;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.634) 0px 0px 15px 4px;
+}
+
+.bemvindo {
+    padding: 20px;
+}
+
+.bemvindo p {
+    font-size: 40px;
+    text-align: center;
+}
+
+.bemvindo h1 {
+    color: rgb(255, 162, 0);
+    font-size: 70px;
+}
+
+.opcoes {
+}
+
+.opcoes a button {
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(255, 162, 0);
+    font-size: 25px;
+    border-radius: 10px;
+}
+
+.mainbv img {
+    width: 25%;
+    height: auto;
+}
+
+/*------------------------------------*/
+
+
+
+
+
+/*Hamburgueres*/
+
+.mainham {
+    padding: 10px 0px 0px 0px;
+    max-width: 500px;
+    margin: auto;
+}
+
+.tituloham {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img {
+    width: 120px;
+    height: 120px;
+}
+
+.tituloham1 {
+    color: rgb(255, 204, 0);
+    font-size: 20px;
+    text-align: center;
+}
+
+.tituloham2 {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+.listaHambur{
+    columns: 2;
+    padding: 0px 10px;
+}
+
+.molhos {
+    background-color: orange;
+    color: black;
+    display: flex;
+    padding: 12px;
+    margin: 10px 5px;
+    font-weight: bolder;
+    align-items: center;
+    justify-content: center;
+}
+
+.molho {
+    background-color: orange;
+    color: black;
+    font-size: 10px;
+    font-family: 'Bebas Neue', sans-serif;
+    padding: 0px 15px;
+}
+
+footer {
+    color: skyblue;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bolder;
+    padding: 10px;
+}
+
+/*--------------------------------------*/
+
+
+
+
+/*Porções*/
+
+.mainpor {
+    padding: 10px 0px 0px 0px;
+    max-width: 500px;
+    margin: auto;
+}
+
+.titulopor {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.titulopor1 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+.listaPorcoes {
+    columns: 2;
+    padding: 0px 10px;
+}
+
+.adicionais {
+    display: flex;
+    width: 100%;
+    padding: 0px 10px;
+}
+
+.adicional1, .adicional2 {
+    width: 50%;
+    padding: 0px 5px;
+}
+
+.adicional {
+    display: flex;
+}
+
+.addnome {
+    color: rgb(255, 149, 0);
+    font-size: 10px;
+    width: 140px;
+}
+
+.addpreco {
+    font-size: 11px;
+}
+
+.detalhes {
+    width: 150px;
+}
+
+.horario {
+    padding-top: 10px;
+    color: rgb(255, 204, 0);
+    font-size: 12px;
+}
+
+.dias {
+    padding-top: 5px;
+    color: white;
+    font-size: 9px;
+}
+
+.contato {
+    text-align: center;
+}
+
+.whats {
+    width: 80px;
+    margin: 0 auto;
+    padding: 5px;
+    background-color: lime;
+    border-radius: 5px;
+}
+
+.numero {
+    font-size: 30px;
+}
+
+/*------------------------------*/
+
+
+
+
+
+
+/*Combos na Caixa*/
+
+.maincom {
+    padding: 10px 0px 0px 0px;
+    max-width: 500px;
+    margin: auto;
+}
+
+.titulocom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.colunacom {
+    display: flex;
+    padding: 0px 0px 3px 15px;
+}
+
+.nomecom {
+    padding-bottom: 5px;
+    color: rgb(255, 149, 0);
+    font-size: 10px;
+    width: 320px;
+}
+
+.lanchescom {
+    padding-bottom: 5px;
+    font-size: 9px;
+    max-width: 100px;
+}
+
+.descricaocom {
+    padding-bottom: 5px;
+    font-size: 8px;
+    max-width: 100px;
+}
+
+.precocom {
+    background-color: orange;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    padding: 10px 2px;
+    margin: 5px;
+}
+
+.acompanha {
+    background-color: orange;
+    color: black;
+    font-size: 12px;
+    text-align: center;
+    width: 150px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+/*------------------------------*/
