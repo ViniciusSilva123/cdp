@@ -54,17 +54,6 @@ body {
     margin: auto;
 }
 
-/* Estilos padrão para monitores e dispositivos maiores */
-@media only screen and (min-width: 768px) {
-    /* Estilos para monitores e tablets */
-}
-
-/* Estilos para dispositivos menores, como celulares */
-@media only screen and (max-width: 767px) {
-    /* Estilos específicos para dispositivos móveis */
-}
-
-
 .mainbv {
     height: 100vh;
     max-width: 1300px;
@@ -82,17 +71,14 @@ body {
     padding: 20px;
 }
 
-.bemvindo p {
-    font-size: 40px;
-    text-align: center;
-}
-
 .bemvindo h1 {
     color: rgb(255, 162, 0);
     font-size: 70px;
 }
 
-.opcoes {
+.bemvindo p {
+    font-size: 40px;
+    text-align: center;
 }
 
 .opcoes a button {
@@ -104,10 +90,94 @@ body {
 }
 
 .mainbv img {
-    width: 25%;
+    width: 20%;
     height: auto;
 }
 
+@media only screen and (max-width: 670px) {
+    /* Estilos para telas com largura máxima de 670 pixels */
+    .bemvindo {
+        padding: 10px;
+    }
+
+    .bemvindo h1 {
+        font-size: 50px;
+    }
+
+    .bemvindo p {
+        font-size: 30px;
+    }
+
+    .opcoes a button {
+        margin: 5px;
+        padding: 5px;
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    /* Estilos para telas com largura máxima de 500 pixels */
+    .bemvindo {
+        padding: 10px;
+    }
+
+    .bemvindo h1 {
+        font-size: 40px;
+    }
+
+    .bemvindo p {
+        font-size: 20px;
+    }
+
+    .opcoes a button {
+        margin: 5px;
+        padding: 5px;
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    /* Estilos para telas com largura máxima de 400 pixels */
+    .bemvindo {
+        padding: 7px;
+    }
+
+    .bemvindo h1 {
+        font-size: 35px;
+    }
+
+    .bemvindo p {
+        font-size: 15px;
+    }
+
+    .opcoes a button {
+        margin: 4px;
+        padding: 4px;
+        font-size: 10px;
+    }
+}
+@media only screen and (max-width: 360px) {
+    /* Estilos para telas com largura máxima de 360 pixels */
+    .bemvindo {
+        padding: 5px;
+    }
+
+    .bemvindo h1 {
+        font-size: 30px;
+    }
+
+    .bemvindo p {
+        font-size: 15px;
+    }
+
+    .opcoes a button {
+        margin: 3px;
+        padding: 3px;
+        font-size: 10px;
+    }
+
+}
+  
 /*------------------------------------*/
 
 
